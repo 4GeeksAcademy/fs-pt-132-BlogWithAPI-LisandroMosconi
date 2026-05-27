@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";  // To use link for navigati
 import PropTypes from "prop-types";  // To define prop types for this component
 import useGlobalReducer from "../hooks/useGlobalReducer";  // Import a custom hook for accessing the global state
 import ghibliAPI from "../services/ghibliAPI";
+import { useEffect, useState } from "react";
 
 // Define and export the Single component which displays individual item details.
 export const Single = props => {

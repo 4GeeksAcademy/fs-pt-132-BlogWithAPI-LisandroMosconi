@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	background:
+		radial-gradient(circle at top left, rgba(154, 190, 160, 0.35), transparent 35%),
+		radial-gradient(circle at bottom right, rgba(248, 214, 152, 0.35), transparent 35%),
+		#f8f4ea;
+	color: #2f332c;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+	background: rgba(255, 252, 244, 0.92) !important;
+	backdrop-filter: blur(8px);
+	border-bottom: 1px solid rgba(70, 90, 70, 0.15);
+}
+
+.navbar-brand {
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	color: #344e41 !important;
+}
+
+.nav-link {
+	color: #52624f;
+	font-weight: 600;
+}
+
+.nav-link:hover {
+	color: #d65f46;
+}
+
+.btn-primary {
+	background-color: #6b8f71;
+	border-color: #6b8f71;
+}
+
+.btn-primary:hover {
+	background-color: #55765b;
+	border-color: #55765b;
+}
+
+.btn-outline-primary {
+	color: #6b8f71;
+	border-color: #6b8f71;
+}
+
+.btn-outline-primary:hover {
+	background-color: #6b8f71;
+	border-color: #6b8f71;
+	color: white;
+}
+
+.text-danger {
+	color: #c85b4f !important;
+}
+
+.card {
+	border: 0;
+	border-radius: 18px;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.86);
+	box-shadow: 0 8px 24px rgba(55, 65, 45, 0.12);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 12px 30px rgba(55, 65, 45, 0.18);
+}
+
+.card-img-top {
+	background-color: #e9e1d1;
+}
+
+.card-title {
+	color: #344e41;
+	font-weight: 700;
+}
+
+.card-text {
+	color: #5b5f57;
+}
+
+.dropdown-menu {
+	border: 0;
+	border-radius: 14px;
+	box-shadow: 0 8px 24px rgba(55, 65, 45, 0.16);
+}
+
+.footer {
+	color: #66715f;
+}
+
+.section-row {
+	scrollbar-color: #9caf88 transparent;
+	scrollbar-width: thin;
+}
+
+.ghibli-hero {
+	background: rgba(255, 255, 255, 0.62);
+	border: 1px solid rgba(70, 90, 70, 0.12);
+	border-radius: 24px;
+	padding: 2rem;
+	box-shadow: 0 8px 24px rgba(55, 65, 45, 0.10);
+}
+
+.ghibli-kicker {
+	color: #c85b4f;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+
+.rakki-popup {
+	animation: rakkiPop 0.35s ease;
+}
+
+.rakki-sticker {
+	width: 120px;
+	filter: drop-shadow(0 8px 12px rgba(55, 65, 45, 0.22));
+}
+
+@keyframes rakkiPop {
+	0% {
+		transform: scale(0.3) rotate(-8deg);
+		opacity: 0;
+	}
+
+	80% {
+		transform: scale(1.08) rotate(3deg);
+		opacity: 1;
+	}
+
+	100% {
+		transform: scale(1) rotate(0);
+		opacity: 1;
+	}
+}
